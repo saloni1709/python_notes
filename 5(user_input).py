@@ -1,0 +1,10 @@
+name = input("Enter your name: ")
+print(name)
+course = int(input("how many courses do you learn: "))
+print(course)
+price = float(input("price of python course: "))
+print(price)
+
+# print(f"My name is {name}. I want to learn {course} courses. And price of Python course is {price}.")
+# print("My name is {}. I want to learn {} courses. And price of Python course is {}.".format(name, course, price))
+print("My name is", name, "I want to learn", course, "courses. And price of Python course is", price)
